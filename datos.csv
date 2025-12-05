@@ -1,0 +1,8 @@
+idTest,nombre Test,estado,tiempo Ejecucion
+101,Login Test,PASSED,120.5
+102,Dashboard Load,FAILED,500.2
+103,Profile Update,PASSED,210.0
+104,Invalid Test,ERROR,100
+105,Logout Test,SKIPPED,0
+106,Checkout,PASSED,340.5
+MALFORMADO,SIN_TIEMPO,PASSED

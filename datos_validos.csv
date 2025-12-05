@@ -1,0 +1,6 @@
+ID,Nombre,Estado,Tiempo
+101,Login Test,PASSED,120.5
+102,Dashboard Load,FAILED,500.2
+103,Profile Update,PASSED,210.0
+105,Logout Test,SKIPPED,0.0
+106,Checkout,PASSED,340.5
