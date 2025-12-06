@@ -39,25 +39,6 @@ El proyecto cubre el 100% de los requerimientos de las Etapas 1, 2 y 3, incluyen
 * **Testing:** JUnit 5 (Jupiter API & Engine)
 * **IDE:** Visual Studio Code (con extensiones Java Extension Pack)
 
-## 📂 Arquitectura del Proyecto
-El código sigue una arquitectura en capas para respetar el principio de Responsabilidad Única (SRP) y facilitar el mantenimiento.
-
-
-src/
-├── main/java/com/qa/
-│   ├── Main.java              # Entry Point: Controla el flujo y el menú interactivo
-│   ├── model/                 # Capa de Modelo
-│   │   ├── TestCase.java      # POJO que representa un caso de prueba
-│   │   └── TestStatus.java    # Enum para restringir estados (PASSED, FAILED, SKIPPED)
-│   ├── service/               # Capa de Lógica de Negocio
-│   │   ├── CsvReader.java     # Lógica de lectura, parsing y validación de excepciones
-│   │   ├── StatsCalculator.java # Algoritmos matemáticos y estadísticos
-│   │   └── ReportGenerator.java # Escritura de archivos de salida (I/O)
-│   └── util/
-│       └── FileFormatException.java # Excepción customizada para errores de formato
-└── test/java/com/qa/service/
-    └── StatsCalculatorTest.java # Pruebas Unitarias para asegurar la calidad del cálculo
-
 
 ## ⚙️ Guía de Ejecución
 
@@ -121,4 +102,5 @@ Error en línea 6: ... -> Estado desconocido: ERROR_TYPE
 **Rol:** QA 
 **Fecha:** Diciembre 05 del 2025
 **Contexto:** Entrega Final - Alkemy Tech Station
+
 
