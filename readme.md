@@ -80,27 +80,12 @@ mvn test
 
 Al seleccionar la opción de generar reporte, el sistema creará `reporte_final.txt`:
 
-
-REPORTE DE RESULTADOS DE PRUEBAS
-=================================
-Total de Tests: 4
-Tiempo Promedio: 192.62 ms
-Test más lento: Checkout Process (500.0 ms)
-
---- Estadísticas por Estado ---
-PASSED: 2 (50.00%)
-FAILED: 1 (25.00%)
-SKIPPED: 1 (25.00%)
-
---- Log de Errores ---
-Error en línea 6: ... -> Estado desconocido: ERROR_TYPE
-
-
 ## 👤 Autor
 
 **Nombre:** Fernando Daniel Carballo
 **Rol:** QA 
 **Fecha:** Diciembre 05 del 2025
 **Contexto:** Entrega Final - Alkemy Tech Station
+
 
 
