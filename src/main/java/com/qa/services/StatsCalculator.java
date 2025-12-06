@@ -8,17 +8,17 @@ import java.util.Optional;
 
 public class StatsCalculator {
 
-    // a. Cantidad total de tests [cite: 24]
+    // cantidad de tests
     public int getTotalTests(List<TestCase> tests) {
         return tests.size();
     }
 
-    // b. Cantidad por estado [cite: 25]
+    // cantidad por estado
     public long getCountByStatus(List<TestCase> tests, TestStatus status) {
         return tests.stream().filter(t -> t.getEstado() == status).count();
     }
 
-    // b. Porcentaje por estado
+    // porrcentaje por estado
     public String getPercentageByStatus(List<TestCase> tests, TestStatus status) {
         if (tests.isEmpty()) return "0.0%";
         long count = getCountByStatus(tests, status);
@@ -26,7 +26,7 @@ public class StatsCalculator {
         return String.format("%.2f%%", percentage);
     }
 
-    // c. Tiempo promedio [cite: 27]
+    // tiempo promedio
     public double getAverageTime(List<TestCase> tests) {
         return tests.stream()
                 .mapToDouble(TestCase::getTiempoEjecucion)
@@ -34,9 +34,10 @@ public class StatsCalculator {
                 .orElse(0.0);
     }
 
-    // d. Test más lento [cite: 28]
+    // test mas lento
     public Optional<TestCase> getSlowestTest(List<TestCase> tests) {
         return tests.stream()
                 .max(Comparator.comparingDouble(TestCase::getTiempoEjecucion));
     }
+
 }
