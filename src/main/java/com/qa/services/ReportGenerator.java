@@ -45,7 +45,7 @@ public class ReportGenerator {
         }
     }
 
-    // Bonus: Exportar a CSV [cite: 35, 104]
+    //  Export a CSV
     public void exportToCsv(String filePath, List<TestCase> tests) {
         try (PrintWriter writer = new PrintWriter(new FileWriter(filePath))) {
             writer.println("ID,Nombre,Estado,Tiempo");
@@ -57,4 +57,5 @@ public class ReportGenerator {
             System.err.println("Error exportando CSV: " + e.getMessage());
         }
     }
+
 }
