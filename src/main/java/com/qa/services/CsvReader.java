@@ -41,7 +41,7 @@ public class CsvReader {
     private TestCase parseLine(String line) throws FileFormatException {
         String[] parts = line.split(",");
         
-        // Validación de estructura [cite: 19]
+        // Validación de estructura
         if (parts.length != 4) {
             throw new FileFormatException("Formato incorrecto (se esperaban 4 columnas)");
         }
@@ -73,4 +73,5 @@ public class CsvReader {
     public List<String> getErrorLog() {
         return errorLog;
     }
+
 }
