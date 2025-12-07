@@ -42,20 +42,7 @@ El proyecto cubre el 100% de los requerimientos de las Etapas 1, 2 y 3, incluyen
 
 ## ⚙️ Guía de Ejecución
 
-### 1\. Prerrequisitos
-
-Asegúrese de tener el archivo de entrada `datos.csv` en la raíz del proyecto (al mismo nivel que `pom.xml`) con el siguiente formato:
-
-
-idTest,nombre Test,estado,tiempo Ejecucion
-001,Login Test,PASSED,120
-002,Checkout Process,FAILED,500
-003,Update Profile,PASSED,150.5
-004,Search Item,SKIPPED,0
-999,Test Malformado,ERROR_TYPE
-
-
-### 2\. Ejecutar la Aplicación (Menú Interactivo)
+### 1\. Ejecutar la Aplicación (Menú Interactivo)
 
 Para iniciar el sistema y ver el menú de opciones:
 
@@ -67,7 +54,7 @@ Abra el archivo `src/main/java/com/qa/Main.java` y haga clic en **"Run"** sobre 
 mvn clean compile exec:java -Dexec.mainClass="com.qa.Main"
 
 
-### 3\. Ejecutar Pruebas Unitarias
+### 2\. Ejecutar Pruebas Unitarias
 
 Para validar la corrección de los cálculos estadísticos (Requerimiento de Etapa 3):
 
@@ -86,6 +73,7 @@ Al seleccionar la opción de generar reporte, el sistema creará `reporte_final.
 **Rol:** QA 
 **Fecha:** Diciembre 05 del 2025
 **Contexto:** Entrega Final - Alkemy Tech Station
+
 
 
 
