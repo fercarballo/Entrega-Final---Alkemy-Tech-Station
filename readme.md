@@ -56,7 +56,7 @@ mvn clean compile exec:java -Dexec.mainClass="com.qa.Main"
 
 ### 2\. Ejecutar Pruebas Unitarias
 
-Para validar la corrección de los cálculos estadísticos (Requerimiento de Etapa 3):
+Para validar la corrección de los cálculos estadísticos:
 
 mvn test
 
@@ -73,6 +73,7 @@ Al seleccionar la opción de generar reporte, el sistema creará `reporte_final.
 **Rol:** QA 
 **Fecha:** Diciembre 05 del 2025
 **Contexto:** Entrega Final - Alkemy Tech Station
+
 
 
 
